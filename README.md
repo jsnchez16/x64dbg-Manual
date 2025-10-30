@@ -1,12 +1,76 @@
 # ✖6️⃣4️⃣dbg - Manual
 
+---
+---
+
 Cheatsheet operativo de x64dbg para análisis y explotación de binarios Windows.
 
 ---
 ---
 
-x64dbg es una herramienta de ingeniería inversa para el análisis estático y dinámico en Windows de binarios ejecutables de 32 y 64 bits.
+**x64dbg** es una herramienta de ingeniería inversa para el análisis estático y dinámico en Windows de binarios ejecutables de 32 y 64 bits.
+
 Este depurador gráfico open source permite el uso de breakpoints, inspección de registros, ver y modificar memoria, trazar instrucciones y analizar llamadas al sistema o librerías externas.
 
 ---
+
+## ⚙️ ***1. Instalación***
+
+- [Página oficial](https://x64dbg.com/)
+- [Repositorio de GitHub](https://github.com/x64dbg/x64dbg)
+- [Descarga desde Sourceforge](https://sourceforge.net/projects/x64dbg/files/snapshots/)
+
+Desde Sourceforge seleccional la snapshot más reciente que tenga el mayor número de descargas.
+
+---
+
+<img width="948" height="778" alt="image" src="https://github.com/user-attachments/assets/b476f387-bd4e-463a-befb-917169625b2f" />
+
+---
+
+Tras unos segundos se iniciará la descarga de un .zip . En la carpeta de descarga del .zip descomprimirlo.
+
+Abrir la carpeta descomprimida y seleccionar la subcarpeta '_release_' . En esta carpeta se encuentran los ejecutables del programa para las diferentes arquitecturas.
+
+---
+
+<img width="538" height="447" alt="image" src="https://github.com/user-attachments/assets/c02591d1-4ad6-4113-b0dc-ed8cf374d435" />
+
+---
+
+Existen dos opciones para el programa.
+
+- x32\x32dbg.exe para depurar un ejecutable de 32 bits.
+- x64\x64dbg.exe para depurar un ejecutable de 64 bits.
+- También se puede ejecutar x96dbg.exe y seleccionar la arquitectura allí.
+
+Para mayor comodidad se pueden crear accesos directos. De ahora en adelante se trabajará con la opción de x32dbg.
+
+Es posible que al ejecutar el programa salte un aviso de '_Windows protegió su PC_'. Basta con hacer clic en '_Más información_'.
+
+---
+
+<img width="518" height="469" alt="image" src="https://github.com/user-attachments/assets/a40ad5e9-7866-4fbc-a2f9-6e89bded4c5c" />
+
+---
+
+Y seleccionar ejecutar de todas formas.
+
+---
+
+<img width="515" height="475" alt="image" src="https://github.com/user-attachments/assets/a395a126-eab5-4dad-afc5-c2b492df9604" />
+
+---
+
+Con esto ya se iniciará en este caso x32dbg.
+
+---
+
+<img width="1271" height="1271" alt="image" src="https://github.com/user-attachments/assets/7aca22eb-5ebd-4622-854a-d0f5a2d3af43" />
+
+---
+
+
+
+
 
