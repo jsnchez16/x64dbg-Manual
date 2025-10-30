@@ -44,7 +44,9 @@ Existen dos opciones para el programa.
 - x64\x64dbg.exe para depurar un ejecutable de 64 bits.
 - También se puede ejecutar x96dbg.exe y seleccionar la arquitectura allí.
 
-Para mayor comodidad se pueden crear accesos directos. De ahora en adelante se trabajará con la opción de x32dbg.
+Para mayor comodidad se pueden crear accesos directos. De ahora en adelante se trabajará con la opción de x32dbg, aunque la versión x64 es igual.
+
+**Es necesario lanzar el programa como administrador.**
 
 Es posible que al ejecutar el programa salte un aviso de '_Windows protegió su PC_'. Basta con hacer clic en '_Más información_'.
 
@@ -69,6 +71,88 @@ Con esto ya se iniciará en este caso x32dbg.
 <img width="1271" height="1271" alt="image" src="https://github.com/user-attachments/assets/7aca22eb-5ebd-4622-854a-d0f5a2d3af43" />
 
 ---
+
+## ***2. Uso***
+
+* **2.1 Selección del binario a analizar.**
+  
+  -  En la barra superior de herramientras Archivo -> Abrir -> Seleccionar el binario vulnerable.
+
+---
+
+<img width="1276" height="1275" alt="image" src="https://github.com/user-attachments/assets/80ffa764-3ecd-49c8-8911-c6e0f4cce970" />
+
+---
+
+A partir de este momento, el binario se ejecuta y pasa al estado 'Pausado'.
+
+---
+
+<img width="67" height="34" alt="image" src="https://github.com/user-attachments/assets/12745800-9e73-4d27-be43-06ba58835dcc" />
+
+---
+
+La siguiente barra de herramientas que aparece arriba se corresponde con la ejecución del programa.
+
+---
+
+<img width="669" height="29" alt="image" src="https://github.com/user-attachments/assets/0ee02aa4-8ea9-4db4-bbf4-b7d7a1efa8bf" />
+
+---
+
+* **2.2 Vistas**
+
+Justo debajo, se encuentran las diferentes vistas que ofrece x64dbg.
+
+* **2.2.1 Vista de CPU**
+
+La vista principal corresponde a la vista de CPU, principalmente se encuentra una vista del código ensamblador del binario, la dirección a la que corresponde cada instrucción. A la derecha del código ensamblador también aparece la información actual que se almacena en los registros y que irá cambiando comforme avance la ejecución.
+
+Desde aquí además es posible establecer los puntos de ruptura para la depuración del binario.
+
+Añadir comentarios en las secciones del código es posible y ayuda a analizar mejor la ejecución.
+
+---
+
+<img width="1091" height="658" alt="image" src="https://github.com/user-attachments/assets/ca0e635a-076e-4dea-b9b1-c2d253e8af40" />
+
+---
+
+<img width="440" height="134" alt="image" src="https://github.com/user-attachments/assets/4349ae3d-b6ec-445f-9ccb-c4a17930744c" />
+
+
+---
+
+<img width="1279" height="812" alt="image" src="https://github.com/user-attachments/assets/25d511a4-b880-4639-adf9-edd38a35d929" />
+
+---
+
+* **2.2.2 Logs**
+
+Presentan la información de todo lo que va ocurriendo durante la ejecución.
+
+---
+
+<img width="782" height="552" alt="image" src="https://github.com/user-attachments/assets/648afe13-dcae-4350-9adb-1860746c2aa1" />
+
+---
+
+Otras vistas interesantes como la vista Breakpoints, Mapa de memoria y Pila de llamadas ofrecen información importante sobre el estado de ejecución del binario.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
