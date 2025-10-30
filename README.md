@@ -74,6 +74,8 @@ Con esto ya se iniciará en este caso x32dbg.
 
 ## ***2. Uso***
 
+---
+
 * **2.1 Selección del binario a analizar.**
   
   -  En la barra superior de herramientras Archivo -> Abrir -> Seleccionar el binario vulnerable.
@@ -103,6 +105,8 @@ La siguiente barra de herramientas que aparece arriba se corresponde con la ejec
 * **2.2 Vistas**
 
 Justo debajo, se encuentran las diferentes vistas que ofrece x64dbg.
+
+---
 
 * **2.2.1 Vista de CPU**
 
@@ -183,6 +187,38 @@ Si en preferencias en la pestaña GUI marcamos la opción 'Show RVA addresses in
 
 <img width="549" height="464" alt="image" src="https://github.com/user-attachments/assets/55700ec3-a1cd-465a-b6db-bc00ebc82ac2" />
 
+---
+
+Si se selecciona una instrucción, bajo la vista aparecerá información relevante como direcciones de las variables que se utilizan y qué valor tienen.
+
+---
+
+<img width="749" height="660" alt="image" src="https://github.com/user-attachments/assets/a386262f-1fe3-4fc9-b8cf-1555aeb65da6" />
+
+---
+
+La ventana 'Por defecto' bajo la ventana de registros de CPU se encarga de mostrar los argumentos de las funciones utilizadas.
+
+---
+
+* **2.2.3 Dumps de memoria**
+
+La ventana de volcados muestra el contenido de la memoria en cada dirección en formato hexadecimal y ASCII. Todos estos nombres, son renombrables.
+
+---
+
+<img width="766" height="366" alt="image" src="https://github.com/user-attachments/assets/c3b5485c-0705-4880-aaa9-0b17145490ce" />
+
+---
+
+Al lado de esta ventana se encuentra la ventana del stack.
+
+---
+
+<img width="510" height="350" alt="image" src="https://github.com/user-attachments/assets/f937a63c-34c8-4c87-8ffa-c4d12c3625d6" />
+
+
+---
 
 
 
