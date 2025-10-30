@@ -106,7 +106,7 @@ Justo debajo, se encuentran las diferentes vistas que ofrece x64dbg.
 
 * **2.2.1 Vista de CPU**
 
-La vista principal corresponde a la vista de CPU, principalmente se encuentra una vista del código ensamblador del binario, la dirección a la que corresponde cada instrucción. A la derecha del código ensamblador también aparece la información actual que se almacena en los registros y que irá cambiando comforme avance la ejecución.
+La vista principal corresponde a la vista de CPU, principalmente se encuentra, de izquierda a derecha, la dirección a la que corresponde cada instrucción, código en hexadecimal, vista del código ensamblador del binario y comentarios. A la derecha del código ensamblador también aparece la información actual que se almacena en los registros y que irá cambiando comforme avance la ejecución.
 
 Desde aquí además es posible establecer los puntos de ruptura para la depuración del binario.
 
@@ -155,7 +155,7 @@ En Opciones -> Apariencia se muestran todas las posibilidades de apariencia de l
 
 ---
 
-* **3. Gráfico**
+* **2.2.2. Gráfico**
 
 Al seleccionar varias secciones del código es posible abrir un gráfico del flujo de ejecución del programa.
 
