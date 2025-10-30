@@ -127,9 +127,7 @@ Añadir comentarios en las secciones del código es posible y ayuda a analizar m
 
 ---
 
-* **2.2.2 Logs**
-
-Presentan la información de todo lo que va ocurriendo durante la ejecución.
+La vista Logs presentan la información de todo lo que va ocurriendo durante la ejecución.
 
 ---
 
@@ -139,21 +137,51 @@ Presentan la información de todo lo que va ocurriendo durante la ejecución.
 
 Otras vistas interesantes como la vista Breakpoints, Mapa de memoria y Pila de llamadas ofrecen información importante sobre el estado de ejecución del binario.
 
+---
 
+En la barra de herramientas principal, Opciones -> Preferencias se pueden seleccionar diferentes aspectos de la ejecución como por ejemplo el que viene activado por defecto para que el programa se detenga en el punto de entrada al iniciar.
 
+---
 
+<img width="455" height="573" alt="image" src="https://github.com/user-attachments/assets/90e7a947-ad82-43c7-b2a4-62773c2b52fd" />
 
+---
 
+En Opciones -> Apariencia se muestran todas las posibilidades de apariencia de las vistas para que sea más sencillo trabajar con el programa
 
+---
 
+<img width="544" height="475" alt="image" src="https://github.com/user-attachments/assets/f5d3d1a1-d185-4e58-a82d-fdf3873032f3" />
 
+---
 
+* **3. Gráfico**
 
+Al seleccionar varias secciones del código es posible abrir un gráfico del flujo de ejecución del programa.
 
+---
 
+<img width="1264" height="613" alt="image" src="https://github.com/user-attachments/assets/2e392f18-6dc6-4092-962f-27bf8deeb690" />
 
+---
 
+Lo que se obtiene es similar a la vista en otros programas como IDA y permite entender mejor el flujo de ejecución.
 
+---
+
+<img width="592" height="738" alt="image" src="https://github.com/user-attachments/assets/1ec6c756-6128-469d-a510-496ef906ad7e" />
+
+---
+
+Si en preferencias en la pestaña GUI marcamos la opción 'Show RVA addresses in graph view' esto muestra las direcciones donde se encuentran las instrucciones cuando estamos en modo de vista de gráfico.
+
+---
+
+<img width="462" height="576" alt="image" src="https://github.com/user-attachments/assets/0ecb0ac9-5240-46e8-be08-dbde3b708304" />
+
+---
+
+<img width="549" height="464" alt="image" src="https://github.com/user-attachments/assets/55700ec3-a1cd-465a-b6db-bc00ebc82ac2" />
 
 
 
